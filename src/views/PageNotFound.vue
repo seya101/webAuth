@@ -1,5 +1,5 @@
 <template>
-    <div class=" px-6 py-40 mx-auto lg:flex lg:items-center">
+    <div class="px-40 md:h-full  py-40 mx-auto lg:flex lg:items-center text-right">
         <div class="w-full lg:w-1/2">
             <div class="text-6xl font-dark font-bold">404</div>
             <p class="text-2xl md:text-3xl font-light leading-normal">Sorry we couldn't find this page. </p>
@@ -9,7 +9,7 @@
         </div>
 
         <div class="relative w-full mt-12 lg:w-1/2 lg:mt-0">
-            <img class="w-full max-w-lg lg:mx-auto" src="../assets/images/404-PageNotFound.svg" alt="">
+            <img class="w-full lg:mx-auto" src="../assets/images/404-PageNotFound.svg" alt="">
         </div>
     </div>
 

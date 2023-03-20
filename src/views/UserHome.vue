@@ -2,7 +2,6 @@
     <div>
         <h1>User homepage</h1>
 
-        <span class="px-3">Hi there, {{ user.displayName }}</span>
           <button class="py-2 px-4 text-white bg-black rounded-3xl font-semibold hover:bg-gray-800" @click="handleClick">Logout</button>
     </div>
 </template>

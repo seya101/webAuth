@@ -1,10 +1,10 @@
 <template>
     <div class="px-40 md:h-full">
-        <div class="flex md:justify-center md:items-center flex-wrap h-full gap-6 text-gray-800 sm:justify-start  sm:items-end sm:gap-0">
+        <div class="flex md:justify-center md:items-center flex-wrap h-full gap-10 text-gray-800 sm:justify-start  sm:items-end sm:gap-0">
         <div class="md:w-8/12 lg:w-6/12">
             <img
                 src="../assets/images/undraw_two_factor_authentication_namy.svg"
-                alt="Sample image"
+                alt="authentication undraw image"
             />
         </div>
         <div class="md:w-8/12 lg:w-5/12 lg:ml-20">
@@ -79,8 +79,8 @@
             </div>
 
             <button class="flex items-center justify-center flex-none px-3 py-4 md:px-4 md:py-3 border-2 rounded-lg font-medium border-purple-700 w-full shadow-md hover:shadow-lg focus:shadow-lg focus:ring-0 active:shadow-lg transition duration-150">
-                <img src="@/src/images/wrike.svg" alt="" class="w-10">
-                <span>Sign in with Wrike</span>
+                <!-- <img src="@/src/images/wrike.svg" alt="" class="w-10"> -->
+                <span>Sign in with Google</span>
             </button>
             </form>
         </div>

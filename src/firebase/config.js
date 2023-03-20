@@ -4,13 +4,15 @@ import 'firebase/auth'
 import 'firebase/storage'
 
 const firebaseConfig = {
-apiKey: "AIzaSyDNjznUpiPQLiLD6Z-ita1t0mAXMg7um14",
+apiKey: import.meta.env.VITE_API_KEY,
 authDomain: "songstream-v2.firebaseapp.com",
 projectId: "songstream-v2",
 storageBucket: "songstream-v2.appspot.com",
 messagingSenderId: "463532209578",
 appId: "1:463532209578:web:a4d793b787aafef566e7d3"
  };
+
+
 
  // init firebase
  firebase.initializeApp(firebaseConfig)

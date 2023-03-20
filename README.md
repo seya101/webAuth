@@ -10,7 +10,7 @@ By using these tools together, developers can create a web authentication applic
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Built with
 

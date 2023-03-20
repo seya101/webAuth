@@ -76,19 +76,17 @@
 import useResetPassword from '@/composables/useResetPassword'
 import { ref } from "vue"
 
-
-
-
 const { error, resetPassword, isPending } = useResetPassword()
 
 const email =  ref('')
 error.value =  ''
+const resetPasswordForm = ref(true);
 
 const submitReset = async() => {
 	const res = await resetPassword(email.value)
 
 	if (!error.value) {
-        const resetPasswordForm = ref(true);
+        
         error.value = ('Email Sent! Kindly check your email')
 		console.log('Email Sent, Check your email')
 	}

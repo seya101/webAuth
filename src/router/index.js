@@ -53,6 +53,13 @@ const router = createRouter({
       }
       ,
       {
+        path: '/successresetpassword',
+        name: 'SuccessPage',
+        component: () => import('../components/SuccessPage.vue'),
+        beforeEnter: requireNoAuth
+      }
+      ,
+      {
         path: '/home',
         name: 'UserHome',
         component: () => import('../views/UserHome.vue'),

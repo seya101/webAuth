@@ -4,13 +4,13 @@
       <RouterView/>
    
 
-    <Footer />
+    <Footer/>
   </section>
 </template>
 
 <script setup>
-import Footer from '@/components/Footer.vue';
 import { RouterView, RouterLink } from 'vue-router'
+import Footer from './components/Footer.vue';
 </script>
 
 
